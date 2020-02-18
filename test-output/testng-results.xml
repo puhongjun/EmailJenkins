@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20353" started-at="2020-02-18T06:30:49Z" finished-at="2020-02-18T06:31:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20353" started-at="2020-02-18T06:30:49Z" finished-at="2020-02-18T06:31:09Z">
+      <class name="cn.Test.EmailTest">
+        <test-method status="PASS" signature="Before()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Before" is-config="true" duration-ms="10798" started-at="2020-02-18T14:30:49Z" finished-at="2020-02-18T14:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Login" duration-ms="4854" started-at="2020-02-18T14:30:59Z" finished-at="2020-02-18T14:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="After()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="After" is-config="true" duration-ms="4681" started-at="2020-02-18T14:31:04Z" finished-at="2020-02-18T14:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- cn.Test.EmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
