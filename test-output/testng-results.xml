@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20353" started-at="2020-02-18T06:30:49Z" finished-at="2020-02-18T06:31:09Z">
+  <suite name="Default suite" duration-ms="24072" started-at="2020-02-19T02:10:42Z" finished-at="2020-02-19T02:11:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20353" started-at="2020-02-18T06:30:49Z" finished-at="2020-02-18T06:31:09Z">
+    <test name="Default test" duration-ms="24072" started-at="2020-02-19T02:10:42Z" finished-at="2020-02-19T02:11:06Z">
       <class name="cn.Test.EmailTest">
-        <test-method status="PASS" signature="Before()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Before" is-config="true" duration-ms="10798" started-at="2020-02-18T14:30:49Z" finished-at="2020-02-18T14:30:59Z">
+        <test-method status="PASS" signature="Before()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Before" is-config="true" duration-ms="14317" started-at="2020-02-19T10:10:42Z" finished-at="2020-02-19T10:10:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Login" duration-ms="4854" started-at="2020-02-18T14:30:59Z" finished-at="2020-02-18T14:31:04Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Login" duration-ms="8185" started-at="2020-02-19T10:10:57Z" finished-at="2020-02-19T10:11:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="After()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="After" is-config="true" duration-ms="4681" started-at="2020-02-18T14:31:04Z" finished-at="2020-02-18T14:31:09Z">
+        <test-method status="PASS" signature="After()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="After" is-config="true" duration-ms="1553" started-at="2020-02-19T10:11:05Z" finished-at="2020-02-19T10:11:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After -->
