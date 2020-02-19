@@ -43,7 +43,9 @@
     		<artifactId>maven-compiler-plugin</artifactId>
     		<version>3.7.0</version>
   			<configuration>
+  				<!-- 源代码jdk版本 -->
   				<source>1.8</source>
+  				<!-- 编译时要用的版本 -->
   				<target>1.8</target>
   				<encoding>UTF-8</encoding>
   			</configuration>
@@ -56,7 +58,8 @@
     	<version>2.19.1</version>
     		<configuration>
     			<suiteXmlFiles>
-    				<suiteXmlFile>./runtestng.xml</suiteXmlFile>
+    				<!-- 当前项目testng.xml文件的路径和名字 -->
+    				<suiteXmlFile>./testng.xml</suiteXmlFile>
     			</suiteXmlFiles>
     		</configuration>
   		</plugin>
