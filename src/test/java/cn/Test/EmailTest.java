@@ -2,6 +2,7 @@ package cn.Test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -36,9 +37,9 @@ public class EmailTest {
 		loginpage.loginButton.click();
 		//将控制权交给原来的界面
 		driver.switchTo().defaultContent();
-		//使用显示等待确定进入登录页面
-		WebDriverWait wait2=new WebDriverWait(driver,5);
-		wait2.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//b[@class='nui-ico gWel-ico gWel-ico-unread-top']")));
+		//显示等待首页title
+		WebDriverWait waitTitle=new WebDriverWait(driver,5);
+		waitTitle.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//title[contains(text(),'网易邮箱6.0版111')]")));
 		try{
 		//断言登录后的页面的Title值是否为“网易邮箱6.0版”
 		Assert.assertEquals(driver.getTitle(),"网易邮箱6.0版");
