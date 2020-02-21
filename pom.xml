@@ -73,7 +73,7 @@
                  <systemProperties>
                        <property>
                             <name>allure.results.directory</name>
-                            <value>./target/allure-results</value>
+                            <value>./target/treport</value>
                         </property>
                  </systemProperties>
     		</configuration>
