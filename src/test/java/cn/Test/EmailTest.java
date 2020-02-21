@@ -46,7 +46,29 @@ public class EmailTest {
 		}catch(Exception e){
 			System.out.println("title不包含“网易邮箱6.0版”");			
 		}
+		
 	}
+	@Test
+	public void test2(){
+		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+	}
+	@Test
+	public void test3(){
+		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+	}
+	@Test
+	public void test41(){
+		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+	}
+	@Test
+	public void test5(){
+		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+	}
+	@Test
+	public void test6(){
+		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+	}
+	
 	@BeforeMethod
 	public void Before(){
 		//获取当前工程项目的路径
