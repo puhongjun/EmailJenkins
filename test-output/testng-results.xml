@@ -2,35 +2,54 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28090" started-at="2020-02-20T05:43:33Z" finished-at="2020-02-20T05:44:01Z">
+  <suite name="Default suite" duration-ms="43078" started-at="2020-02-21T06:31:12Z" finished-at="2020-02-21T06:31:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28090" started-at="2020-02-20T05:43:33Z" finished-at="2020-02-20T05:44:01Z">
+    <test name="Default test" duration-ms="43078" started-at="2020-02-21T06:31:12Z" finished-at="2020-02-21T06:31:56Z">
       <class name="cn.Test.EmailTest">
-        <test-method status="PASS" signature="Before()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Before" is-config="true" duration-ms="9810" started-at="2020-02-20T13:43:33Z" finished-at="2020-02-20T13:43:43Z">
+        <test-method status="PASS" signature="Before()[pri:0, instance:cn.Test.EmailTest@78b729e6]" name="Before" is-config="true" duration-ms="34302" started-at="2020-02-21T14:31:12Z" finished-at="2020-02-21T14:31:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before -->
-        <test-method status="FAIL" signature="Login()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="Login" duration-ms="17127" started-at="2020-02-20T13:43:43Z" finished-at="2020-02-20T13:44:00Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="FAIL" signature="Login()[pri:0, instance:cn.Test.EmailTest@78b729e6]" name="Login" duration-ms="4779" started-at="2020-02-21T14:31:47Z" finished-at="2020-02-21T14:31:52Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Timed out after 10 seconds waiting for presence of any elements located by By.xpath: //title[contains(text(),'网易邮箱6.0版111')]
+              <![CDATA[element click intercepted: Element <iframe name="" frameborder="0" id="x-URS-iframe1582266690019.7458" scrolling="no" src="https://dl.reg.163.com/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fmimg.127.net%2Fp%2Ffreemail%2Findex%2Funified%2Fstatic%2F2020%2F%2Fcss%2F&amp;cf=urs.163.3262f873.css&amp;MGID=1582266690019.7458&amp;wdaId=&amp;pkid=CvViHzl&amp;product=mail163" style="width: 100%; height: 100%; border: none; background: none;" cd_frame_id_="00cc80f6bc698ba38d73fdf2deabc9bf"></iframe> is not clickable at point (974, 429). Other element would receive the click: <div id="normalLoginFormMask" class="login-form-mask" style="">...</div>
+  (Session info: chrome=80.0.3987.87)
+  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.27 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'USER-20180602NR', ip: '192.168.2.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+System info: host: 'USER-20180602NR', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63653}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\ADMINI~1.USE\AppData\Local\Temp\scoped_dir20348_1805184842}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3c63b58cf815035688a06f4f76ce6ff1]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61969}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\ADMINI~1.USE\AppData\Local\Temp\scoped_dir13536_17683942}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd5bd3a1c8af85788ef4ac0e2d2475c0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of any elements located by By.xpath: //title[contains(text(),'网易邮箱6.0版111')]
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <iframe name="" frameborder="0" id="x-URS-iframe1582266690019.7458" scrolling="no" src="https://dl.reg.163.com/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fmimg.127.net%2Fp%2Ffreemail%2Findex%2Funified%2Fstatic%2F2020%2F%2Fcss%2F&amp;cf=urs.163.3262f873.css&amp;MGID=1582266690019.7458&amp;wdaId=&amp;pkid=CvViHzl&amp;product=mail163" style="width: 100%; height: 100%; border: none; background: none;" cd_frame_id_="00cc80f6bc698ba38d73fdf2deabc9bf"></iframe> is not clickable at point (974, 429). Other element would receive the click: <div id="normalLoginFormMask" class="login-form-mask" style="">...</div>
+  (Session info: chrome=80.0.3987.87)
+  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.27 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'USER-20180602NR', ip: '192.168.2.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
+System info: host: 'USER-20180602NR', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63653}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\ADMINI~1.USE\AppData\Local\Temp\scoped_dir20348_1805184842}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3c63b58cf815035688a06f4f76ce6ff1
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
-	at cn.Test.EmailTest.Login(EmailTest.java:45)
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61969}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\ADMINI~1.USE\AppData\Local\Temp\scoped_dir13536_17683942}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd5bd3a1c8af85788ef4ac0e2d2475c0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at cn.Test.EmailTest.Login(EmailTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,11 +76,11 @@ Session ID: 3c63b58cf815035688a06f4f76ce6ff1
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="After()[pri:0, instance:cn.Test.EmailTest@5442a311]" name="After" is-config="true" duration-ms="1085" started-at="2020-02-20T13:44:00Z" finished-at="2020-02-20T13:44:01Z">
+        <test-method status="PASS" signature="After()[pri:0, instance:cn.Test.EmailTest@78b729e6]" name="After" is-config="true" duration-ms="3756" started-at="2020-02-21T14:31:52Z" finished-at="2020-02-21T14:31:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After -->

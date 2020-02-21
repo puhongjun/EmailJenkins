@@ -38,8 +38,8 @@ public class EmailTest {
 		//将控制权交给原来的界面
 		driver.switchTo().defaultContent();
 		//显示等待首页title
-//		WebDriverWait waitTitle=new WebDriverWait(driver,5);
-//		waitTitle.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//title[contains(text(),'网易邮箱6.0版')]")));
+		WebDriverWait waitTitle=new WebDriverWait(driver,5);
+		waitTitle.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//title[contains(text(),'网易邮箱6.0版')]")));
 		try{
 		//断言登录后的页面的Title值是否为“网易邮箱6.0版”
 		Assert.assertTrue(driver.getTitle().contains("网易邮箱6.0版"));
