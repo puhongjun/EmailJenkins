@@ -20,6 +20,7 @@ public class EmailTest {
 	
 	@Test
 	public void Login(){
+	try{
 		//创建一个LoginPage对象
 		LoginPage loginpage=new LoginPage(driver);
 		//直接调用页面对象的 密码登录在这里 对象，进行单击
@@ -40,33 +41,58 @@ public class EmailTest {
 		//显示等待首页title
 		WebDriverWait waitTitle=new WebDriverWait(driver,5);
 		waitTitle.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//title[contains(text(),'网易邮箱6.0版')]")));
-		try{
 		//断言登录后的页面的Title值是否为“网易邮箱6.0版”
 		Assert.assertTrue(driver.getTitle().contains("网易邮箱6.0版"));
 		}catch(Exception e){
-			System.out.println("title不包含“网易邮箱6.0版”");			
+			Assert.fail("测试失败”");			
 		}
 		
 	}
 	@Test
 	public void test2(){
-		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+		try{
+			//断言登录后的页面的url
+			Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+			}catch(Exception e){
+				Assert.fail("网页url没有包含mail.163.com");		
+			}
+		
 	}
 	@Test
 	public void test3(){
-		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+		try{
+			//断言登录后的页面的url
+			Assert.assertTrue(driver.getCurrentUrl().contains("mail.163"));
+			}catch(Exception e){
+				Assert.fail("网页url没有包含mail.163");		
+			}
 	}
 	@Test
 	public void test41(){
-		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+		try{
+			//断言登录后的页面的url
+			Assert.assertTrue(driver.getCurrentUrl().contains("mail."));
+			}catch(Exception e){
+				Assert.fail("网页url没有包含mail.");		
+			}
 	}
 	@Test
 	public void test5(){
-		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+		try{
+			//断言登录后的页面的url
+			Assert.assertTrue(driver.getCurrentUrl().contains("163.com"));
+			}catch(Exception e){
+				Assert.fail("网页url没有包含163.com");		
+			}
 	}
 	@Test
 	public void test6(){
-		Assert.assertTrue(driver.getCurrentUrl().contains("mail.163.com"));
+		try{
+			//断言登录后的页面的url
+			Assert.assertTrue(driver.getCurrentUrl().contains(".com"));
+			}catch(Exception e){
+				Assert.fail("网页url没有包含.com");		
+			}
 	}
 	
 	@BeforeMethod

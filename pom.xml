@@ -73,12 +73,12 @@
                  <systemProperties>
                        <property>
                             <name>allure.results.directory</name>
-                            <value>./allureReport</value>
+                            <value>./allure-results</value>
                         </property>
                  </systemProperties>
-    		</configuration>
-    		
-  		</plugin>  		
+    		</configuration>    		
+  		</plugin> 
+  		 		
   	</plugins>
   </build>
   
